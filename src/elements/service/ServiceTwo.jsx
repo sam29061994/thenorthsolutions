@@ -1,35 +1,35 @@
 import React, { Component } from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor ,FiChevronUp, FiMail, FiCopy } from "react-icons/fi";
+import {IoIosBriefcase, IoIosSettings, IoMdPeople, IoMdCalculator, IoIosPaper, IoIosTimer} from 'react-icons/io'
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
+        icon: <IoMdPeople />,
+        title: 'Permenant Recruitment',
         description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
     },
     {
-        icon: <FiLayers />,
-        title: 'Website Development',
+        icon: <IoIosBriefcase />,
+        title: 'Executive Search',
         description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
+        icon: <IoMdCalculator />,
+        title: 'Payroll Solutions',
         description: 'Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt ut.'
     },
     {
-        icon: <FiMonitor />,
-        title: 'Mobile Development',
+        icon: <IoIosTimer />,
+        title: 'Contract Staffing',
         description: 'Desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
     },
     {
-        icon: <FiMail />,
-        title: 'Email Marketing',
+        icon: <IoIosPaper />,
+        title: 'Managed & Professional Services',
         description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in.'
     },
     {
-        icon: <FiCopy />,
-        title: 'Copywriting',
+        icon: <IoIosSettings />,
+        title: 'RPO / In-House',
         description: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for.'
     },
 ]

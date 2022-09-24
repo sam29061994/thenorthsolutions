@@ -2,6 +2,7 @@ import React, { Component , Fragment } from "react";
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 import { FiHeart, FiClock, FiCheckCircle, FiAward } from "react-icons/fi";
+import { HiHeart, HiCalendar, HiClipboardCheck, HiIdentification } from "react-icons/hi";
 
 
 class CounterOne extends Component{
@@ -16,27 +17,27 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                icon: <FiHeart />,
-                countNum : 199,
-                countTitle: 'Staticfied Customers',
+                icon: <HiHeart />,
+                countNum : 4,
+                countTitle: 'Statisfied Customers',
             },
 
             {
-                icon: <FiClock />,
-                countNum : 575,
+                icon: <HiCalendar />,
+                countNum : 30,
                 countTitle: 'Days Of Operation',
             },
 
             {
-                icon: <FiCheckCircle />,
-                countNum : 49,
+                icon: <HiClipboardCheck />,
+                countNum : 5,
                 countTitle: 'Complete Project',
             },
 
             {
-                icon: <FiAward />,
-                countNum : 55,
-                countTitle: 'Win Awards',
+                icon: <HiIdentification />,
+                countNum : 5,
+                countTitle: 'Placements Done',
             }
         ];
 

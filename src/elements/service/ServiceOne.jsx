@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-import { FiActivity, FiCast, FiMap } from "react-icons/fi";
+import { FiGithub, FiTarget, FiFastForward } from "react-icons/fi";
 
 
 const ServiceList = [
     {
-        icon: <FiActivity />,
-        title: 'Awarded Design',
-        description: 'There are many variations variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        icon: <FiGithub />,
+        title: 'TOP TALENT',
+        description: 'Our extensive networking and innovative search techniques are in place to ensure North Solutions will help you hire and retain the greatest possible talent for your needs.'
     },
     {
-        icon: <FiCast />,
-        title: 'Design & Creative',
-        description: 'Passages there are many variations variations  of of Lorem Ipsum available, but the majority have suffered.'
+        icon: <FiTarget />,
+        title: 'PERSONALIZED EXPERIENCE',
+        description: 'Every client has unique needs and goals. At North Solutions we customize our solutions and services to meet your requirements and ensure long-term success.'
     },
     {
-        icon: <FiMap />,
-        title: 'App Development',
-        description: 'Variations There are many variations  of passages of Lorem Ipsum available, but the majority have suffered.'
+        icon: <FiFastForward />,
+        title: 'FORWARD THINKING',
+        description: 'Building long-term, value-based relationships with our clients and candidates is our primary mission at North Solutions and effective communication is our key strength.'
     },
 ]
 class ServiceOne extends Component{

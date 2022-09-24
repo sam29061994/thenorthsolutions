@@ -42,9 +42,11 @@
         &.subtitle {
             font-weight: 600;
             letter-spacing: 0.5px;
-            line-height: 18px;
-            font-size: 16px;
+             line-height: 32px;
+            // font-size: 16px;
+            font-size: 25px;
             border-radius: 4px;
+            // margin-bottom: 12px;
             margin-bottom: 12px;
             @extend .theme-gradient;
         }

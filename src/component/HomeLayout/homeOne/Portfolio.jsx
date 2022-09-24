@@ -1,33 +1,33 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
-const Portfolio_image = <img src="/assets/images/portfolio/portfolio-8.jpg" alt="React Creative Agency" />;
-const Portfolio_image2 = <img src="/assets/images/portfolio/portfolio-9.jpg" alt="React Creative Agency" />;
-const Portfolio_image3 = <img src="/assets/images/portfolio/portfolio-10.jpg" alt="React Creative Agency" />;
+const Portfolio_image = <img src="/assets/images/portfolio/portfolio-8.jpeg" alt="React Creative Agency" />;
+const Portfolio_image2 = <img src="/assets/images/portfolio/portfolio-9.jpeg" alt="React Creative Agency" />;
+const Portfolio_image3 = <img src="/assets/images/portfolio/portfolio-10.jpeg" alt="React Creative Agency" />;
 
 const PortfolioList = [
     {
         image: Portfolio_image,
         category: 'Development',
-        title: 'Web Design',
+        title: 'IT & TECHNOLOGY',
         description: 'Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.'
     },
     {
         image: Portfolio_image2,
         category: 'Product Design',
-        title: 'App Development',
+        title: 'ENGINEERING & TECHNICAL',
         description: 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit.'
     },
     {
         image: Portfolio_image3,
         category: 'Application',
-        title: 'Photoshop Design',
+        title: 'ACCOUNTING & FINANCE',
         description: 'Lorem ipsum dolor sit amet, consec tetur adipiscing elit.'
     }
 ]
 
 class Portfolio extends Component{
     render(){
-        let title = 'Some of our Recent Works',
+        let title = 'We provide solutions for',
         description = 'There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration.';
         return(
             <React.Fragment>
@@ -36,7 +36,7 @@ class Portfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center">
-                                    <span className="subtitle">Our project</span>
+                                    <span className="subtitle">Our experties</span>
                                     <h2 className="title">{title}</h2>
                                     <p className="description" dangerouslySetInnerHTML={{ __html: description }}></p>
                                 </div>

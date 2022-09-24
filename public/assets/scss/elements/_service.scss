@@ -33,8 +33,9 @@
                 h4 {
                     &.title {
                         margin-bottom: 20px;
-                        font-weight: 400;
+                        font-weight: 800;
                         font-size: 24px;
+                        
                         @media #{$sm-layout} {
                             margin-bottom: 12px;
                             font-weight: 400;

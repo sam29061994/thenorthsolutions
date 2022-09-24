@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import { Link } from 'react-router-dom';
-
+import { Link } from 'react-router-dom'; 
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-
 import SliderOne from "../component/slider/SliderOne";
 import ServiceTwo from "../elements/service/ServiceTwo";
 import CounterOne from "../elements/counters/CounterOne";
@@ -17,7 +15,7 @@ import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";
 
 class MainDemo extends Component{
-    render(){
+    render(){  
         const PostList = BlogContent.slice(0 , 3);
         return(
             <div className="active-dark"> 
@@ -78,7 +76,7 @@ class MainDemo extends Component{
                 {/* End Testimonial Area */}
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area ptb--120 bg_color--5">
+                {/* <div className="rn-blog-area ptb--120 bg_color--5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -119,7 +117,7 @@ class MainDemo extends Component{
                             ))}
                         </div>    
                     </div>    
-                </div>
+                </div> */}
                 {/* End Blog Area */}
 
                 {/* Start Brand Area */}
