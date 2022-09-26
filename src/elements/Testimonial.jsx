@@ -4,7 +4,7 @@ class Testimonial extends Component{
     render(){
         return(
             <React.Fragment>
-                <div className="row">
+                <div className="row mt--40">
                     <div className="col-lg-12">
                         <Tabs>
                             <div className="row align-items-center">
@@ -102,56 +102,56 @@ class Testimonial extends Component{
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-1.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-01.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-2.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-02.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-3.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-03.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-4.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-04.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-5.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-05.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-6.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-06.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-7.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-07.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
                                         <Tab>
                                             <div className="testimonial-thumbnai">
                                                 <div className="thumb">
-                                                    <img src="/assets/images/client/testimonial-8.jpg" alt="Testimonial Images"/>
+                                                    <img src="/assets/images/client/value-08.jpeg" alt="Testimonial Images"/>
                                                 </div>
                                             </div>
                                         </Tab>
